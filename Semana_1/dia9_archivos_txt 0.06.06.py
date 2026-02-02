@@ -22,7 +22,7 @@ archivo = open("Semana_1//yo.txt")
   #  print(contenido)
 #no es necesario cerrar el archivo
 
-with open("Semana_1//yo.txt",'w','r',encoding="UTF-8", ) as archive:
+with open("Semana_1//yo.txt",'w',encoding="UTF-8", ) as archive:
     #Sobre escribiendo el archivo
     #archive.write("Esto lo escribi desde el codigo")
     
