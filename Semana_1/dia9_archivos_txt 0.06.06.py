@@ -22,7 +22,7 @@ archivo = open("Semana_1//yo.txt")
   #  print(contenido)
 #no es necesario cerrar el archivo
 
-with open("Semana_1//yo.txt",'w',encoding="UTF-8", ) as archive:
+with open("Semana_1//yo.txt",'w','r',encoding="UTF-8", ) as archive:
     #Sobre escribiendo el archivo
     #archive.write("Esto lo escribi desde el codigo")
     
@@ -31,3 +31,4 @@ with open("Semana_1//yo.txt",'w',encoding="UTF-8", ) as archive:
     archive.write("\n")
     for i in range(5):
         archive.write(f"Linea {i+1} agregada \n")
+        
